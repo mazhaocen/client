@@ -10,3 +10,12 @@ let demo = async (ctx, next) => {
 module.exports = {
   'POST-/users/demo': demo,
 }
+// signIn () {
+//   console.log(123);
+//   this.$http.post('/users/signIn', {
+//     userName: '12332',
+//     password: 222232
+//   }).then(res => {
+//     console.log(res);
+//   })
+// }
